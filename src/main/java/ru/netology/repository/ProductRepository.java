@@ -2,6 +2,8 @@ package ru.netology.repository;
 
 import ru.netology.domain.Product;
 
+import java.util.Arrays;
+
 public class ProductRepository {
     private Product[] products = new Product[0];
 

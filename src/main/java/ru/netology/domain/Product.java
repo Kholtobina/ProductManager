@@ -39,4 +39,13 @@ public class Product {
                 ", price=" + price +
                 '}';
     }
+
+    public boolean matches(String searchText) {
+
+        if (getName().equalsIgnoreCase(searchText)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
